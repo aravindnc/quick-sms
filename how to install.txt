@@ -1,0 +1,2 @@
+install dotNetFramework2
+then click "SETUP"

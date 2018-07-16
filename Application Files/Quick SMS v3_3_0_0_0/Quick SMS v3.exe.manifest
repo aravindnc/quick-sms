@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="3.0.0.0" name="Quick SMS v3.exe" publicKeyToken="a030ab3c948506c0" language="en" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="google-talk-icon copy2.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Quick SMS v3" version="3.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Quick SMS v3.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Quick SMS v3.exe" size="995840">
+      <assemblyIdentity name="Quick SMS v3" version="3.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>2lCIfxpz/dUXh2oe9Rag/e6bmlg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en\Quick SMS v3.resources.dll" size="36864">
+      <assemblyIdentity name="Quick SMS v3.resources" version="3.0.0.0" language="en" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>lWl7Of3xireVzWqFpdiGyxGCqhs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="google-talk-icon copy2.ico" size="5430">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WABrFKML7Zta8AHjUIiycY56OQQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Quick SMS v3.exe.config" size="1369">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wXHOekM7fJbtuhhsvE0eBo+wKsk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Chandu-PC\Chandu" issuerKeyHash="531c1b116c5bb51f703d3787c8b3fc05d5396ee2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>UF2QdPvjFAWdKLAZGFyEwVoGA6s=</DigestValue></Reference></SignedInfo><SignatureValue>ahrc5yj1oWKWKLAc/qvcnLDohXcRxU1Eg2n0RGAwhnjbYVtXKhHUYh7A0egTRmakQVuvc0iDjuDsRhTacTTZN21Zl0HzL2N/b4y71MTlAm5LxZ5lFMCgWjxjSRcazipAsvhPpgGj9PaNG+yOibQgCHrMEQHAM+JhfrhQAwjmFPE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ig6BwlPMpBx7NQs/7sXscsl/r2ra1RayKpONokyOhiw8o7acdmxyTcfNUwMYB+Se146gTj/PRKA1ENuZUnONmrwutEL+11WATi+ES0culZeHc5xtVfkEtB+4Ykw4UJGqZ/Ivb0UbJ0ocBi2VMkjMIqUV/m8DP94LwImPfufKPjM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ab03065ac1845c1819b0289d0514e3fb74905d50" Description="" Url=""><as:assemblyIdentity version="3.0.0.0" name="Quick SMS v3.exe" publicKeyToken="a030ab3c948506c0" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Chandu-PC\Chandu</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>QSdZiNbOb7hhbyhuXxarH1es1pc=</DigestValue></Reference></SignedInfo><SignatureValue>gFvz4QbmroVUhQzszUo21immkT6Bs776HVRNhKjb88GpEW+49Q/bLC0lYdDNFndPZdS5cytnT44ZGKwJTEzIpNlfmIi56+cXdd4VGOhe0jSJTtUv9a3jJLumh37InMewhoPmzOheeiyYGz3MDz8ykf0f+vwD0LZGUZOvmrBTAl0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ig6BwlPMpBx7NQs/7sXscsl/r2ra1RayKpONokyOhiw8o7acdmxyTcfNUwMYB+Se146gTj/PRKA1ENuZUnONmrwutEL+11WATi+ES0culZeHc5xtVfkEtB+4Ykw4UJGqZ/Ivb0UbJ0ocBi2VMkjMIqUV/m8DP94LwImPfufKPjM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQLjoDeEgrw4pCYb6aujBUWzANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAAQwBoAGEAbgBkAHUALQBQAEMAXABDAGgAYQBuAGQAdTAeFw0wOTA3MzExMzIyMjdaFw0xMDA3MzExOTIyMjdaMCsxKTAnBgNVBAMeIABDAGgAYQBuAGQAdQAtAFAAQwBcAEMAaABhAG4AZAB1MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCKDoHCU8ykHHs1Cz/uxexyyX+vatrVFrIqk42iTI6GLDyjtpx2bHJNx81TAxgH5J7XjqBOP89EoDUQ25lSc42avC60Qv7XVYBOL4RLRy6Vl4dznG1V+QS0H7hiTDhQkapn8i9vRRsnShwGLZUySMwipRX+bwM/3gvAiY9+58o+MwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAFmAN5Y8Pe+DfFI+8cENm0QzOkbj5xtI6hiISoVXZXf5oab6oNDMk4DCyk6dVV6r6RUSI0WicowYRN1XshX7nEl3eEhu/LvccX7TwaIHav4s8xMjWjSerfmwWP8T8pHAzTtotTbFkcdOXOkXGFx/85WEk9ODGSNcIxiYK4qAtLe4</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
